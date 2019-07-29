@@ -1,3 +1,5 @@
+' change sample
+
 Attribute VB_Name = "Module1"
 Private Sub Distribution_BM()
 
@@ -12,7 +14,7 @@ Application.ScreenUpdating = False
 
 If Date > DateSerial(2019, 8, 1) Then
     
-        MsgBox "»ç¿ë °¡´É ³¯Â¥°¡ Áö³µ½À´Ï´Ù." & vbCr & "»ç¿ë °¡´É±âÇÑ : 2019.10.01"
+        MsgBox "ì‚¬ìš© ê°€ëŠ¥ ë‚ ì§œê°€ ì§€ë‚¬ìŠµë‹ˆë‹¤." & vbCr & "ì‚¬ìš© ê°€ëŠ¥ê¸°í•œ : 2019.10.01"
         
     ThisWorkbook.ActiveSheet.Protect "whwhdrms1!"
         
@@ -42,7 +44,9 @@ Sheets(i).Unprotect ("whwhdrms1!")
             End If
             
         End If
-        
+         
+    
+            
     Next rngS
       
     If Not rngSU Is Nothing Then
